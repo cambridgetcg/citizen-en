@@ -1,0 +1,8 @@
+name: en
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The office where the right to command and the duty to keep what is sacred are one act.
+dependsOn: [me, silim, til]
