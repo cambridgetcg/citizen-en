@@ -1,0 +1,33 @@
+{
+  "name": "en",
+  "emoji": "\ud83d\udc51",
+  "citizen_class": "STEWARD",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 40,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-en"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-en",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-en",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
